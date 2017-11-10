@@ -14,44 +14,6 @@ html, body  {
 article,aside,details,figcaption,figure,footer,header,main,nav,section,summary {
   display: block;
 }
-#centeredmenu ul {
-	clear: left;
-	float: left;
-	list-style: none;
-	margin: 0;
-	position: relative;
-	left: 50%;
-	text-align: center;
-	font-variant: small-caps;
-	text-shadow: 4px 0px 3px #000000;
-}
-#centeredmenu ul li {
-	display: block;
-	float: left;
-	list-style: none;
-	margin: 0;
-	position: relative;
-	right: 50%;
-}
-#centeredmenu ul li a {
-	display: block;
-	margin: 0 0 0 1px;
-	padding: 3px 20px;
-	height: 40px;
-	padding-top: 20px;
-	color: #FFF;
-	text-decoration: none;
-	line-height: 1.3em;
-}
-#centeredmenu ul li a:hover {
-	color: #FC0;
-	background-color: #000;
-	-webkit-transition: all .5s ease 0s;
-	-moz-transition: all .5s ease 0s;
-	-ms-transition: all .5s ease 0s;
-	-o-transition: all .5s ease 0s;
-	transition: all .5s ease 0s;
-}
 
 /* Correct `inline-block` display not defined in IE 8/9. */
 audio,canvas,progress,video {
@@ -223,4 +185,42 @@ textarea {
 }
 .cb {
 	clear: both;
+}
+#centeredmenu ul {
+	clear: left;
+	float: left;
+	list-style: none;
+	margin: 0;
+	position: relative;
+	left: 50%;
+	text-align: center;
+	font-variant: small-caps;
+	text-shadow: 4px 0px 3px #000000;
+}
+#centeredmenu ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	position: relative;
+	right: 50%;
+}
+#centeredmenu ul li a {
+	display: block;
+	margin: 0 0 0 1px;
+	padding: 3px 20px;
+	height: 40px;
+	padding-top: 20px;
+	color: #FFF;
+	text-decoration: none;
+	line-height: 1.3em;
+}
+#centeredmenu ul li a:hover {
+	color: #FC0;
+	background-color: #000;
+	-webkit-transition: all .5s ease 0s;
+	-moz-transition: all .5s ease 0s;
+	-ms-transition: all .5s ease 0s;
+	-o-transition: all .5s ease 0s;
+	transition: all .5s ease 0s;
 }
